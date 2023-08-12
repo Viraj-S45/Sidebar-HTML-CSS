@@ -5,7 +5,7 @@ This project provides a customizable sidebar template built using HTML and CSS. 
 
 ## Preview
 
-![App Screenshot](https://i.imgur.com/BZKvtUn.jpg)
+![App Screenshot](https://i.imgur.com/xRve42i.jpg)
 
 
 
