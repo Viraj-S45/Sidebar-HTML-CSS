@@ -3,6 +3,11 @@
 
 This project provides a customizable sidebar template built using HTML and CSS. It's designed to create a stylish and functional sidebar for web applications, featuring various components like logo, search box, navigation links, and user profile.
 
+## Preview
+
+![App Screenshot](https://i.imgur.com/BZKvtUn.jpg)
+
+
 
 ## Features
 
