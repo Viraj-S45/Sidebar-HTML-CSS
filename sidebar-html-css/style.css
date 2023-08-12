@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  margin-left: 50px;
+  
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #11101d;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.search-box {
+  background-color: #1d1b31;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+  margin-left: 10px;
+  color: white;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.links a.active,
+.links a:hover {
+  background-color: white;
+  color: black;
+}
+
+.link-icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.profile {
+  /* bottom: 50px; */
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: 30px;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.logout-icon {
+  cursor: pointer;
+  margin-left: auto;
+}
+
+
+
+@media (max-width: 576px) {
+    .sidebar {
+      width: 37px;
+      background-color: #11101d;
+      color: white;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Align items vertically */
+    }
+  
+    .hide {
+      display: none;
+    }
+  
+    .search-box {
+      display: none;
+    }
+  
+    .logo {
+      justify-content: space-between; /* Distribute items evenly */
+      align-items: center; /* Align items vertically */
+      margin-bottom: 10px;
+    }
+  
+    .link-text {
+      display: none;
+    }
+  }
+  
+
+
+
