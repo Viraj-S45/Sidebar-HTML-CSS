@@ -5,6 +5,8 @@ This project provides a customizable sidebar template built using HTML and CSS. 
 
 ## Preview
 
+Link : https://sidebar-html-css.netlify.app/
+
 ![App Screenshot](https://i.imgur.com/xRve42i.jpg)
 
 
